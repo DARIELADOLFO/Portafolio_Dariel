@@ -14,6 +14,10 @@ Este archivo puede servir como punto de partida para la creación de tu propio s
 ## Foto Web:
 ![Foto](portafolio.png)
 
+## Foto Web:
+![Foto](portafolio2.png)
+
+
 ## Foto Movil:
 ![Foto](portafolio1.png)
 
