@@ -21,8 +21,8 @@ Este archivo puede servir como punto de partida para la creación de tu propio s
 ## Foto Movil:
 ![Foto](portafolio1.png)
 
-### URL del Proyecto: http/file:///C:/Users/darie/Downloads/Curso%20de%20Excel%20y%20PowerBI-Analisis%20de%20datos/Portafolio%20Web/index.html
-
+### URL del Proyecto: [ttp/file:///C:/Users/darie/Downloads/Curso%20de%20Excel%20y%20PowerBI-Analisis%20de%20datos/Portafolio%20Web/index.html
+](https://darieladolfo.github.io/Portafolio_Dariel/)](https://darieladolfo.github.io/Portafolio_Dariel/)
 Siéntete libre de utilizar este archivo como referencia o punto de partida para tu propio proyecto web.
 
 **Nota:** Asegúrate de tener acceso a las bibliotecas de Bootstrap y Font Awesome para que la página funcione correctamente.
