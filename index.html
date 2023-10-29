@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagenes/1.jpeg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #adf1f1;
+            color: #000000;
+        }
+
+        .navbar {
+            background-color: #120c0c;
+            z-index: 1;
+        }
+
+     
+        .navbar-nav{
+            color: rgb(215, 0, 0);
+        }
+        /* Cambiar el color del borde a blanco */
+        .custom-button {
+            border-color: white;
+        }
+
+        /* Cambiar el color del fondo del botón a blanco (si es necesario) */
+        .custom-button {
+            background-color: white;
+        }
+
+        /* Cambiar el color del texto a negro (si es necesario) */
+        .custom-button {
+            color: black;
+        }
+
+        .section-heading {
+            color: #f00;
+        }
+
+        .card {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .card-title {
+            color: rgb(210, 224, 15);
+        }
+        .descricion{
+        text-align: justify;    
+        }
+        .profile-image {
+            width: 300px;
+            height: 350;
+            border: 3px solid rgb(233, 244, 16);
+            border-radius: 50%;
+            margin-top: 10px;
+            animation: heartbeat 3s infinite;
+            box-shadow: 0 5px 10px rgba(46, 244, 36, 0.3), 0 2px 5px rgba(255, 255, 255, 0.5);
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.02);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .social-icons {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .social-icons li {
+            margin: 0 10px;
+        }
+
+        .social-icons a {
+            color: #f00;
+            font-size: 20px;
+        }
+
+        .footer {
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top text-white">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Home</a>
+            <button class="navbar-toggler custom-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav ml-auto text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#videos">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#fototer">Fototer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <br>
+    <br>
+    <!-- Sobre MI Section -->
+    <section id="sobre-mi" class="text-center">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="section-heading">Sobre mí</h1>
+            <h3></h3>
+            <h3>Dariel Peña Vasquez</h3>
+            <img src="https://avatars.githubusercontent.com/u/101618623?v=4" class="profile-image" alt="Tu Fotografía"> <br><br>
+            <h4>💻 Ingeniero de Sistemas y Computación de la Universidad Dominicana O&M.
+<p>⌛ Cuento con varios años de experiencia trabajando con Sistemas Informáticos, Orientados a Procesos Tecnológicos y Administrativos. Soy un Apasionado de las Tecnologías y de los aportes de las mejoras Productivas y de Educación que brindan.</p>
+<p>🛠 Me considero con Capacidad Analítica, Comunicación Efectiva, Liderazgo de Personal, Perseverancia y un alto Grado de Resiliencia. Desde muy temprano he trabajado en varias empresas y proyectos que van desde Implementaciones de Sistemas como soporte técnico, hasta liderar todo un grupo de técnicos para resolver averías y fallas en diferentes empresas, lo que me ha permitido conocer, aprender y poner en práctica muchos de esos procesos, tanto a nivel tecnológico, como de áreas muy relevantes para la Administración, Recursos Humanos, Producción, Ventas y sus tomas de decisiones.</p>
+<p>📚 Estoy en constante aprendizaje de forma autodidacta en el mundo del Desarrollo Web, Base de Datos, y últimamente he estado trabajando con algunas herramientas para el Análisis de Datos. Tengo una excelente pasión por estos Procesos de Analizar las informaciones, creación de Visualizaciones y Dashboards con herramientas de Business Intelligence (Power Bi, SQL Server, Excel), para la mejor toma de decisiones.</p> </h4>
+        </div>
+</section>
+    <br>
+    <br>
+    <!-- Proyectos Section -->
+    <section id="proyectos" class="proyectos-section">
+        <div class="container text-center">
+            <div class="container text-center">
+                <h2 class="section-heading">Proyectos de Analisis de Datos</h2>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="imagenes/powerbi1.png"
+                                class="card-img-top" alt="Proyecto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 1</h5>
+                                <p class="card-text">Dashboard donde se analizar varios datos como las ventas,acumuladas por productos. <BR> <BR>  <b>Autor: Ing. Dariel A. Peña</b></p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                                <BR>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4"> 
+                        <div class="card">
+                            <img src="imagenes/powerbi2.png"
+                                class="card-img-top" alt="Proyecto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Dashboard donde se analizar varios datos como las ventas, los margenes, las regiones, los productos, vendedores, clientes, cobros, clientes, etc.  <BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="imagenes/powerbi3.png"
+                                class="card-img-top" alt="Proyecto 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 3</h5>
+                                <p class="card-text">Dashboard de Finanzas con Análisis Compartivos por Año, reportes de utilidades, ingresos por region, productos y clientes, etc..<BR> <b>Autor: Ing. Dariel A. Peña</b>
+
+                                    .</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4"><BR><BR>
+                        <div class="card">
+                            <img src="imagenes/powerbi4.png"
+                                class="card-img-top" alt="Proyecto 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 4</h5>
+                                <p class="card-text">Dashboard de Cobros de Facturas, cartera, vencimientos de facturas, por clientes, etc. <BR> <BR> <b>Autor: Ing. Dariel A. Peña</b>
+
+                                    .</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"><BR><BR>
+                        <div class="card">
+                            <img src="imagenes/powerbi5.png"
+                                class="card-img-top" alt="Proyecto 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 5</h5>
+                                <p class="card-text">Dashboard de ventas, con diseño sencillo, pero muy interesante, analizando ventas, vendedor, región, y año. <BR> <BR> <b>Autor: Ing. Dariel A. Peña</b>
+                                    .</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"><BR><BR>
+                        <div class="card">
+                            <img src="imagenes/powerbi6.png"
+                                class="card-img-top" alt="Proyecto 6">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 6</h5>
+                                <p class="card-text">Dashboard donde se analizar varios datos como las ventas, los margenes, las regiones, los productos, vendedores, clientes, cobros, clientes, etc.  <BR> <b>Autor: Ing. Dariel A. Peña</b></p
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <BR><BR>
+            <h2 class="section-heading">Proyectos Desarrollo Web</h2>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="imagenes/foto1.png"
+                            class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Este proyecto reresenta un programa que ermite dibujar con el teclado o con el mouse,  donde se puede cambiar a diferentes colores y grosores de las lienas.  <BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="imagenes/foto2.png"
+                            class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Esta es una pagina donde se simula una tienda de Cupcakes utilizando html y css.<BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="imagenes/foto3.jpeg"
+                            class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Este es un juego de naves donde tienes que ir esquivando los meteoritos, el mismo fue utilizando html, ccs y JavaScript.<BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"><BR><BR>
+                    <div class="card">
+                        <img src="imagenes/foto4.png"
+                            class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">Este es mi blog personal que hice en 2022<BR> <b>Autor: Ing. Dariel A. Peña</b>.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div><div class="col-lg-4"><BR><BR>
+                    <div class="card">
+                        <img src="imagenes/foto5.png"
+                            class="card-img-top" alt="Proyecto 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 5</h5>
+                            <p class="card-text">Este proyecto simula un cajero automatico, cuando retiras x cantidad, se muestra las cantidades que extraiste en esos dominicanos.<BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div><div class="col-lg-4"><BR><BR>
+                    <div class="card">
+                        <img src="imagenes/foto6.png"
+                            class="card-img-top" alt="Proyecto 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 6</h5>
+                            <p class="card-text">Este proyecto es un dibujo utilizando canvas, donde escribes las lienas que quieres dibujar.<BR> <b>Autor: Ing. Dariel A. Peña</b></p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+    </section>
+
+
+    <br>
+    <br>
+    <!-- Videos Section -->
+    <section id="videos" class="section">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2>Videos</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card video-card">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1kKMlpUhUCs?si=D1aFiljguSSiiTnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Realidad virtual y su importancia.</h5>
+                  <p class="descricion" class="card-text">La realidad virtual (RV) crea mundos virtuales con tecnología. Es importante porque cambia cómo interactuamos con la información y el mundo digital, afectando la educación, medicina, entretenimiento y entrenamiento profesional.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card video-card">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EZRMpYPzHNQ?si=M1vHx2qLJe-rfoq6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+                <div class="card-body">
+                  <h5 class="card-title">Tecnologías WAN</h5>
+                  <p class="descricion" class="card-text">Las tecnologías WAN conectan dispositivos a larga distancia, como a nivel nacional o internacional. Ejemplos incluyen líneas alquiladas, VPN, Frame Relay, redes de fibra óptica y satélites. Estas tecnologías permiten la comunicación y conectividad</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card video-card">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QSF-6yen7DI?si=e-6unsgxTTI3y337" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <div class="card-body">
+                  <h5 class="card-title">La seguridad de la red. </h5>
+                  <p class="descricion" class="card-text">Se refiere a las medidas y procedimientos implementados para proteger la integridad, confidencialidad y disponibilidad de los datos y sistemas en una red. Incluye firewalls, cifrado, autenticación y monitoreo para prevenir accesos.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+</section>
+
+    
+    <br>
+    <br>
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto-section">
+        <div class="container text-center">
+            <h2 class="section-heading">Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/dariel-pe%C3%B1a-v%C3%A1squez-a89b42201/"
+                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/dariel.v_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+            <p>Todos los derechos reservados &copy; 2023</p>
+        </div>
+    </footer>
+    <br>
+    <br>
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+</body>
+
+</html>
