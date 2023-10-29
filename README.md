@@ -21,7 +21,7 @@ Este archivo puede servir como punto de partida para la creación de tu propio s
 ## Foto Movil:
 ![Foto](portafolio1.png)
 
-### URL del Proyecto: file:///C:/Users/darie/Downloads/Curso%20de%20Excel%20y%20PowerBI-Analisis%20de%20datos/Portafolio%20Web/index.html
+### URL del Proyecto: http/file:///C:/Users/darie/Downloads/Curso%20de%20Excel%20y%20PowerBI-Analisis%20de%20datos/Portafolio%20Web/index.html
 
 Siéntete libre de utilizar este archivo como referencia o punto de partida para tu propio proyecto web.
 
