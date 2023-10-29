@@ -21,7 +21,7 @@ Este archivo puede servir como punto de partida para la creación de tu propio s
 ## Foto Movil:
 ![Foto](portafolio1.png)
 
-### URL del Proyecto: https://darieladolfo.github.io/Portafolio_web/
+### URL del Proyecto: https://darieladolfo.github.io/Portafolio_Dariel/
 
 Siéntete libre de utilizar este archivo como referencia o punto de partida para tu propio proyecto web.
 
