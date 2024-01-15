@@ -1,9 +1,5 @@
 # Archivo HTML de Ejemplo
 
-Este es un archivo HTML de ejemplo que demuestra una página web simple. Incluye elementos como un menú de navegación Bootstrap, secciones para información personal, proyectos, videos y un formulario de contacto. Además, utiliza estilos personalizados para cambiar el aspecto de la página.
-
-Este archivo puede servir como punto de partida para la creación de tu propio sitio web personalizado utilizando HTML, Bootstrap y CSS.
-
 ## Características Destacadas
 
 - Uso de Bootstrap para la estructura del menú de navegación.
