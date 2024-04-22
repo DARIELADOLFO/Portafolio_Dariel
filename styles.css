@@ -14,7 +14,7 @@
         
         .navbar {
             /* Gradiente claro a oscuro */
-            background: linear-gradient(to right, #062b7a, #ff0000);
+            background: linear-gradient(to right, #5db886, #21aa03);
             /* Otros estilos */
             z-index: 1;
             font-size: 18px;
